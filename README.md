@@ -31,3 +31,6 @@ npm install
 
 npm start
 
+4. Database Screenshot
+
+DatabaseScreenShot.png
