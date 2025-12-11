@@ -1,0 +1,106 @@
+/* GLOBAL PAGE STYLING */
+body {
+  font-family: "Poppins", sans-serif;
+  background: #f0f4f8;
+  margin: 0;
+  padding: 0;
+}
+
+/* MAIN CONTAINER */
+.container {
+  width: 80%;
+  margin: auto;
+  margin-top: 40px;
+  text-align: center;
+}
+
+/* HEADING STYLE */
+h1 {
+  color: #333;
+  margin-bottom: 20px;
+}
+
+/* TEXTAREA STYLE */
+textarea {
+  width: 350px;
+  height: 80px;
+  padding: 10px;
+  font-size: 15px;
+  border: 2px solid #ccc;
+  border-radius: 8px;
+  outline: none;
+  resize: none;
+  background: #fff;
+  transition: 0.2s ease-in-out;
+}
+
+textarea:focus {
+  border-color: #0077ff;
+  box-shadow: 0 0 5px #0077ff;
+}
+
+/* BUTTON STYLE */
+button {
+  padding: 10px 25px;
+  background: #007bff;
+  border: none;
+  outline: none;
+  font-size: 16px;
+  color: white;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: 0.2s ease-in-out;
+}
+
+button:hover {
+  background: #005fcc;
+}
+
+/* SELECT FILTER DROPDOWN */
+select {
+  padding: 8px 15px;
+  margin-top: 10px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  background: white;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+/* TABLE DESIGN */
+table {
+  width: 80%;
+  margin: 20px auto;
+  border-collapse: collapse;
+  background: white;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0px 2px 5px rgba(0,0,0,0.1);
+}
+
+table thead {
+  background: #007bff;
+  color: white;
+}
+
+table th,
+table td {
+  padding: 12px;
+  border-bottom: 1px solid #eee;
+}
+
+/* STATUS COLORS */
+.status-Verified {
+  color: #0a8f54;
+  font-weight: bold;
+}
+
+.status-ToCheck {
+  color: #cf7500;
+  font-weight: bold;
+}
+
+/* TABLE ROW HOVER EFFECT */
+table tr:hover {
+  background-color: #f1f7ff;
+}
